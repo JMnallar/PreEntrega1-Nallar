@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: #a8a8a815;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  margin: 0;
+  position: fixed; /* Fija la barra de navegación */
+  top: 0; /* La barra de navegación estará en la parte superior */
+}
+
+ul {
+  list-style-type: none; /* Quita los estilos de lista predeterminados */
+  margin: 0; /* Elimina los márgenes predeterminados */
+  padding: 0; /* Elimina los rellenos predeterminados */
+  text-align: center; /* Centra los elementos de la lista */
+}
+
+li {
+  display: inline-block; /* Hace que los elementos de la lista se muestren en línea */
+  margin-right: 20px; /* Espacio entre los elementos de la lista */
+}
+
+a {
+  color: white; /* Cambia el color del texto de los enlaces */
+  text-decoration: none; /* Quita la subrayado predeterminado de los enlaces */
+  padding: 5px 10px; /* Añade un poco de espacio interno a los enlaces */
+  border-radius: 5px; /* Añade bordes redondeados a los enlaces */
+}
+
+a:hover {
+  background-color: #555; /* Cambia el color de fondo cuando se pasa el mouse sobre los enlaces */
+}
+
+h1 {
+  color: rgba(0, 0, 0, 0.603);
+}
+
+.logo {
+  height: 40px;
+  display: flex;
+}
+
+.item-list-container {
+  margin-top: 60px;
+  padding: 20px;
+  display: flex;
+  justify-content: center; /* Para centrar el contenido horizontalmente */
+  align-items: center; /* Para centrar el contenido verticalmente */
+}
