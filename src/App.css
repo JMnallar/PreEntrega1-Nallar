@@ -55,3 +55,8 @@ h1 {
   justify-content: center; /* Para centrar el contenido horizontalmente */
   align-items: center; /* Para centrar el contenido verticalmente */
 }
+
+.cart {
+  height: 40px;
+  display: flex;
+}
